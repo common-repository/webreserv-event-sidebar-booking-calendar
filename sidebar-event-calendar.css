@@ -1,0 +1,42 @@
+/* 
+  Copyright (C) 2007 Web Reservation Systems, Inc.
+  
+
+*/
+/* Texts for booking information */
+body, table {font: 7pt tahoma;}
+
+
+/* Days of the week header */
+.mcl {font: 4pt tahoma, Arial, Helvetica, sans-serif;} 
+
+.mcl {border-collapse: collapse; }
+/* Month Year Header */
+.mcl caption {text-align: left; padding-top: 2px; padding-bottom: 1px; border-top: 1px solid #33CCFF; border-left: 1px solid #a33CCFF; border-right: 1px solid #33CCFF; font-size: 14pt; background-color: #33CCFF; padding-left: 2px;color: #ffffff }
+
+/* Arrow image for month movement */
+.mcl caption img { height : 18px; max-width : 18px; width : 18px;  margin-right: 1px;}
+
+/* Header where day of week is written */
+.mcl th {font: 4pt tahoma, Arial, Helvetica, sans-serif; border: 1px solid #003366; border-bottom: none; background-color: #003366; color: #ffffff; text-align: center;}
+
+/* Date header */
+.mcl td {font: 7pt tahoma, Arial, Helvetica, sans-serif; border: 1px solid #003366; vertical-align: top; width: 40px; background-color: #ccf2ff;} 
+
+.mcl td.today {border: 2px solid #003366; }
+.mcl td.inactive {background-color: #cccccc;}
+.mcl.day {font: 7pt tahoma; color: #ffffff; background-color: #33CCFF; border-bottom: 1px solid #dddddd;} 
+
+
+/* Style for actual events in calendar */
+.mcl.items {font: 7pt tahoma, Arial, Helvetica, sans-serif; padding: 1px;} 
+.mcl.time {font: 7pt tahoma, Arial, Helvetica, sans-serif; color: #003366; }
+.mcl.title, .mcl.title a {font: 7pt tahoma, Arial, Helvetica, sans-serif; color: #003366;} 
+
+
+input, textarea, select { 
+font: 7pt tahoma, Arial, Helvetica, sans-serif;
+} 
+
+a img {max-width : 120px; width : 120px;}
+td table td {height :50px;}

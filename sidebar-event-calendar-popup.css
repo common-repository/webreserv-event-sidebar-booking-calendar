@@ -1,0 +1,27 @@
+/* 
+  Copyright (C) 2007 Web Reservation Systems, Inc.
+  
+*/
+/* Texts for booking information */
+body, table {font: 10pt Arial, Helvetica, sans-serif;}
+
+/* Days of the week header */
+.mcl {font: 8pt Arial, Helvetica, sans-serif;}
+.mcl {border-collapse: collapse; }
+/* Month Year Header */
+.mcl caption {text-align: left; padding-top: 2px; padding-bottom: 1px; border-top: 1px solid #33CCFF; border-left: 1px solid #a33CCFF; border-right: 1px solid #33CCFF; font-size: 14pt; background-color: #33CCFF; padding-left: 2px;color: #ffffff }
+
+.mcl caption img {margin-right: 1px;}
+.mcl th {border: 1px solid #003366; border-bottom: none; background-color: #003366; color: #ffffff; text-align: center;}
+
+/* Date header */
+.mcl td {font-size: 10pt; border: 1px solid #003366; vertical-align: top; width: 130px;background-color: #CCF2FF;}
+
+.mcl td.today {border: 1px solid #003366; }
+.mcl td.inactive {background-color: #cccccc;}
+.mcl.day {color: #ffffff; padding: 2px; font-weight: 700; background-color: #33CCFF; border-bottom: 1px solid #dddddd;}
+.mcl.items {padding: 1px; font-size: 10pt;}
+.mcl.time {color: #003366; }
+.mcl.title, .mcl.title a {font-weight: 500; color: #003366;}
+
+
